@@ -7,8 +7,8 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
-     domain="dev-03ifqltxbr6nn0hn.us.auth0.com"
-     clientId="RXlGXkr49Ev5MHpvAC6vKkZ4bVn11iwl"
+     domain="dev-6jfm4282vjsuj5sp.us.auth0.com"
+     clientId="PNkSAiuR4cLRMQutmSSGs6hW5q8IXg5Y"
      authorizationParams={{
       redirect_uri: "https://full-stack-real-estate-youtube-sooty.vercel.app"
      }}
