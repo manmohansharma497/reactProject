@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      domain="dev-6jfm4282vjsuj5sp.us.auth0.com"
      clientId="PNkSAiuR4cLRMQutmSSGs6hW5q8IXg5Y"
      authorizationParams={{
-      redirect_uri: "https://react-project-front-alpha.vercel.app/"
+      redirect_uri: "http://localhost:5173/"
      }}
      audience="http://localhost:8000"
      scope="openid profile email"

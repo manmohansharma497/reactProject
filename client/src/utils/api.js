@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { toast } from "react-toastify";
 
 export const api = axios.create({
-  baseURL: "https://react-project-eight-weld.vercel.app/api",
+  baseURL: "http://localhost:5173/api",
 });
 
 export const getAllProperties = async () => {
